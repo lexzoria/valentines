@@ -84,6 +84,22 @@ button{
     display:none;
 }
 
+#calendar-btn {
+    background: #4285f4;   /* Google blue */
+    color: white;
+    padding: 15px 25px;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+
+#calendar-btn:hover {
+    background: #357ae8;  /* darker blue on hover */
+}
+
 #final{
     font-size:36px;
     margin-top:30px;
@@ -98,28 +114,45 @@ button{
 <h1>My Dearest Wiferinos ❤️</h1>
 
 <p class="message">
-Thanks for being my best friend, my support, my constant,
-the one that keeps me rooted and reminds me to be the best person —
-you’ve made my life fuller and happier.
+    Thanks for being my best friend, my support, my constant, <br>
+    the one that keeps me rooted and reminds me to be the best person — <br>
+    you’ve made my life so much fuller and happier.
 </p>
 
 <div class="gallery">
     <img src="images/FullSizeRender.jpeg" class="photo">
     <img src="images/FullSizeRender 2.jpeg" class="photo">
+</div>
+
+<p class="message">
+    Through the seasons and all the places we travelled to, <br>
+    I learn to love you more and more.
+</p>
+    
+<div class="gallery">
     <img src="images/FullSizeRender 3.jpeg" class="photo">
     <img src="images/FullSizeRender 4.jpeg" class="photo">
 </div>
 
-<h2 class="question">Will you be my Valentine?</h2>
+<h2 class="question">
+    Though we are separated by time and space, <br>
+    I want to be with you next Saturday <br>
+    <br>
+    Will you be my Valentine?</h2>
 
 <button id="yes">YES ❤️</button>
 <button id="no">No</button>
 
 <div id="final" class="hidden">
-    🎉 YAY lovey I'll see you at <b>7:30pm</b> (SGT) on 14th Feb 🎉
+    YAY lovey I'll see you at <b>7:00pm</b> (SGT) on 14th Feb! 🎉
     <br><br>
-    Love you so very much 🥰
+    Love you so very much 🥰 <br>
+    See you! <3
 </div>
+
+<a href="https://calendar.app.google/C1LSPKR9HVhV4dGJ7" target="_blank">
+  <button id="calendar-btn">Add to Calendar</button>
+</a>
 
 </div>
 
