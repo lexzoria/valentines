@@ -9,7 +9,7 @@
 
 <style>
 body{
-    font-family: "Great Vibes", cursive;
+    font-family: "Segoe UI", cursive;
     text-align:center;
     background: #ffc0cb;
     color:#fff;
@@ -89,20 +89,20 @@ button{
 
 <h1>My Dearest Wiferinos ❤️</h1>
 
-<p>
+<p class="message">
 Thanks for being my best friend, my support, my constant,
 the one that keeps me rooted and reminds me to be the best person —
 you’ve made my life fuller and happier.
 </p>
 
 <div class="gallery">
-    <img src="FullSizeRender.jpeg" class="photo">
-    <img src="FullSizeRender 2.jpeg" class="photo">
-    <img src="FullSizeRender 3.jpeg" class="photo">
-    <img src="FullSizeRender 4.jpeg" class="photo">
+    <img src="images/FullSizeRender.jpeg" class="photo">
+    <img src="images/FullSizeRender 2.jpeg" class="photo">
+    <img src="images/FullSizeRender 3.jpeg" class="photo">
+    <img src="images/FullSizeRender 4.jpeg" class="photo">
 </div>
 
-<h2>Will you be my Valentine?</h2>
+<h2 class="question">Will you be my Valentine?</h2>
 
 <button id="yes">YES ❤️</button>
 <button id="no">No</button>
@@ -129,6 +129,7 @@ noBtn.addEventListener("mouseover", () => {
 
 yesBtn.addEventListener("click", () => {
     final.classList.remove("hidden");
+    noBtn.style.display = "none";  // hides the No button
 });
 </script>
 
